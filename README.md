@@ -1,4 +1,4 @@
 # HackerRank
-coding for Hacker Rank challenges
-Megan Fanning 
-started:July 15, 2016
+Code for Hacker Rank challenges,
+Author: Megan Fanning 
+started: July 15, 2016
