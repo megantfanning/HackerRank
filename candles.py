@@ -9,11 +9,11 @@ heights = heights.split(" ");
 heights = map(int, heights)
 
 tallestCandle=1
-candlesBlown=1
+candlesBlown=0
 for i in heights:    
-    if i > tallestCandle:
+    if i==tallestCandle:
+        candlesBlown+=1
+    elif i > tallestCandle:
         tallestCandle=i
         candlesBlown=1
-    elif i==tallestCandle:
-        candlesBlown+=1
 print(candlesBlown)
